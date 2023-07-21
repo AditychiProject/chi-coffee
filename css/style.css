@@ -192,12 +192,12 @@ body {
 }
 
 .shopping-cart img {
-  height: 6rem;
+  height: 3rem;
   border-radius: 50%;
 }
 
 .shopping-cart h3.item-name {
-  font-size: 1.25rem;
+  font-size: 1.1rem;
   padding-bottom: 0.5rem;
 }
 
@@ -208,6 +208,7 @@ body {
 
 .shopping-cart .remove-item {
   cursor: pointer;
+  height: 1.1rem;
   position: absolute;
   right: 1rem;
 }
@@ -370,7 +371,7 @@ body {
   align-items: center;
   background-color: var(--dark);
   border: 1px solid var(--light);
-  margin-top: 2rem;
+  margin-bottom: 2rem;
   padding-left: 1rem;
 }
 
@@ -379,7 +380,7 @@ body {
   color: var(--light);
   font-size: 1rem;
   background-color: transparent;
-  padding: 1rem 2rem 1rem 1rem;
+  padding: 1rem;
 }
 
 .contact .row form button {
@@ -389,7 +390,6 @@ body {
   color: var(--light);
   font-size: 1rem;
   background-color: var(--primary);
-  margin-top: 2rem;
   padding: 1rem 3rem;
 }
 
@@ -481,7 +481,7 @@ footer .copyright::before {
   }
 
   .header .shopping-cart {
-    width: 24rem;
+    width: 100%;
   }
 
   /* Hero Section */
@@ -526,14 +526,13 @@ footer .copyright::before {
   }
 
   .contact .row form {
-    padding: 0 1rem 2rem;
+    padding: 1rem;
   }
 
   /* Footer */
   footer .links {
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    flex-direction: column;
   }
 
   footer .copyright::before {
