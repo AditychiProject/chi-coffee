@@ -19,4 +19,4 @@ Versi 3
 - Mengubah style pada halaman website chi coffee.
 
 Versi 3.1
-- Mengubah beberapa style pada halaman website chi coffee.
+- Mengubah beberapa komponen pada halaman website chi coffee.
