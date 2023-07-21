@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chi Coffee</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/style.css" />
+    <!-- Icon -->
+    <script src="https://unpkg.com/feather-icons"></script>
+    <!-- Font -->
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet" />
+  </head>
+  <body>
+    <!-- Header -->
+    <header class="header">
+      <!-- Logo -->
+      <a href="#" class="header-logo">Chi <span>Coffee</span></a>
+      <!-- Links -->
+      <div class="header-links">
+        <a href="#">Beranda</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#product">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <!-- Icons -->
+      <div class="header-icons">
+        <button id="search"><i data-feather="search"></i></button>
+        <button id="shopping-cart"><i data-feather="shopping-cart"></i></button>
+        <button id="hamburger-menu"><i data-feather="menu"></i></button>
+      </div>
+      <!-- Search Input -->
+      <div class="search-input">
+        <input type="search" id="search-box" placeholder="Cari produk disini" />
+        <label for="search-box"><i data-feather="search"></i></label>
+      </div>
+      <!-- Cart -->
+      <div class="shopping-cart">
+        <!-- Item 1 -->
+        <div class="cart-item">
+          <img src="img/product.jpg" alt="" />
+          <div class="item-detail">
+            <h3 class="item-name">Latte</h3>
+            <span class="item-price">$4</span>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <!-- Item 2 -->
+        <div class="cart-item">
+          <img src="img/product.jpg" alt="" />
+          <div class="item-detail">
+            <h3 class="item-name">Cappuccino</h3>
+            <span class="item-price">$3</span>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <!-- Item 3 -->
+        <div class="cart-item">
+          <img src="img/product.jpg" alt="" />
+          <div class="item-detail">
+            <h3 class="item-name">Espresso</h3>
+            <span class="item-price">$2</span>
+          </div>
+          <i data-feather="trash-2" class="remove-item"></i>
+        </div>
+        <!-- Checkout Button -->
+        <a href="#" class="checkout-btn">Checkout</a>
+      </div>
+    </header>
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+      <main class="content">
+        <h1>Nikmati pengalaman kopi yang luar biasa</h1>
+        <p>Layaknya sepotong seni, kopi kami diciptakan dengan dedikasi dan keahlian. Dalam setiap tegukan, Anda akan merasakan harmoni unik dari biji kopi pilihan, proses pemanggangan yang sempurna, dan rasa yang memikat.</p>
+        <a href="#menu" class="cta">Pesan sekarang</a>
+      </main>
+    </section>
+    <!-- About Section -->
+    <section id="about" class="about">
+      <h2><span>Tentang</span> Kami</h2>
+      <div class="row">
+        <!-- Image -->
+        <div class="about-img">
+          <img src="img/about.jpg" alt="" />
+        </div>
+        <!-- Content -->
+        <div class="about-content">
+          <h3>Kenapa memilih kopi kami?</h3>
+          <p>
+            Kualitas yang Tidak Diragukan: Kami mengutamakan kualitas dalam setiap aspek produksi kopi kami. Kami hanya menggunakan biji kopi pilihan yang dipetik dengan teliti, diproses secara hati-hati, dan dipanggang dengan sempurna
+            untuk menghadirkan rasa yang konsisten dan luar biasa.
+          </p>
+          <p>
+            Keahlian Pemanggangan: Proses pemanggangan kopi kami dilakukan oleh para ahli yang berpengalaman. Dengan perpaduan ilmu dan seni, mereka memastikan bahwa biji kopi terunggul kami mencapai tingkat pemanggangan yang tepat,
+            mengungkapkan karakteristik unik dan rasa yang memikat.
+          </p>
+          <p>
+            Keberlanjutan yang Dijaga: Kami peduli dengan lingkungan dan komunitas tempat kopi kami berasal. Oleh karena itu, kami bekerja sama dengan para petani kopi yang berkomitmen pada praktik pertanian berkelanjutan, memastikan bahwa
+            setiap cangkir kopi yang Anda nikmati juga memberikan dampak positif pada dunia sekitar.
+          </p>
+        </div>
+      </div>
+    </section>
+    <!-- Menu Section -->
+    <section id="menu" class="menu">
+      <h2><span>Menu</span> Kami</h2>
+      <p>Seluruh menu kami dipilih dengan teliti dan disiapkan dengan penuh perhatian untuk menghadirkan kepuasan yang tak terlupakan. Mari jelajahi dan temukan kopi favorit Anda.</p>
+      <div class="row">
+        <!-- Menu 1 -->
+        <div class="menu-card">
+          <img src="img/menu.jpg" alt="" class="menu-card-img" />
+          <h3 class="menu-card-title">Espresso</h3>
+          <p class="menu-card-price">$2</p>
+        </div>
+        <!-- Menu 2 -->
+        <div class="menu-card">
+          <img src="img/menu.jpg" alt="" class="menu-card-img" />
+          <h3 class="menu-card-title">Macchiato</h3>
+          <p class="menu-card-price">$3</p>
+        </div>
+        <!-- Menu 3 -->
+        <div class="menu-card">
+          <img src="img/menu.jpg" alt="" class="menu-card-img" />
+          <h3 class="menu-card-title">Americano</h3>
+          <p class="menu-card-price">$2</p>
+        </div>
+        <!-- Menu 4 -->
+        <div class="menu-card">
+          <img src="img/menu.jpg" alt="" class="menu-card-img" />
+          <h3 class="menu-card-title">Cappuccino</h3>
+          <p class="menu-card-price">$3</p>
+        </div>
+        <!-- Menu 5 -->
+        <div class="menu-card">
+          <img src="img/menu.jpg" alt="" class="menu-card-img" />
+          <h3 class="menu-card-title">Latte</h3>
+          <p class="menu-card-price">$4</p>
+        </div>
+      </div>
+    </section>
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+      <h2><span>Kontak</span> Kami</h2>
+      <p>Ada pertanyaan atau ingin memesan menu kopi? Isi formulir di bawah ini dan kami akan segera menghubungi Anda. Kami siap membantu Anda dalam setiap kebutuhan kopi Anda.</p>
+      <div class="row">
+        <!-- Location -->
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m14!1m8!1m3!1d31918.541795656285!2d109.3366486!3d-0.0313143!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e1d58f604b0799b%3A0x511ef9501fc9ffe3!2sPontianak%2C%20Kota%20Pontianak%2C%20Kalimantan%20Barat!5e0!3m2!1sid!2sid!4v1685233843076!5m2!1sid!2sid"
+          class="location"
+          allowfullscreen=""
+          loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"
+        ></iframe>
+        <!-- Form -->
+        <form>
+          <!-- Name -->
+          <div class="input-group">
+            <i data-feather="user"></i>
+            <input type="text" placeholder="Nama Anda" />
+          </div>
+          <!-- Email -->
+          <div class="input-group">
+            <i data-feather="mail"></i>
+            <input type="email" placeholder="Email Anda" />
+          </div>
+          <!-- Message -->
+          <div class="input-group">
+            <i data-feather="shopping-bag"></i>
+            <input type="text" placeholder="Pesanan Anda" />
+          </div>
+          <!-- Submit -->
+          <button type="submit" class="submit-btn">Kirim</button>
+        </form>
+      </div>
+    </section>
+    <!-- Footer -->
+    <footer>
+      <!-- Socials -->
+      <div class="socials">
+        <a href="#"><i data-feather="instagram"></i></a>
+        <a href="#"><i data-feather="facebook"></i></a>
+        <a href="#"><i data-feather="twitter"></i></a>
+      </div>
+      <!-- Links -->
+      <div class="links">
+        <a href="#">Beranda</a>
+        <a href="#about">Tentang Kami</a>
+        <a href="#menu">Menu</a>
+        <a href="#product">Produk</a>
+        <a href="#contact">Kontak</a>
+      </div>
+      <!-- Copyright -->
+      <div class="copyright">
+        <p>Copyright &copy; 2023 chicoffee.</p>
+      </div>
+    </footer>
+    <!-- JS -->
+    <script src="js/script.js"></script>
+  </body>
+</html>
