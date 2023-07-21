@@ -17,3 +17,6 @@ Versi 3
 - Membuat modal cart.
 - Memperbaiki bug pada tombol cart.
 - Mengubah style pada halaman website chi coffee.
+
+Versi 3.1
+- Mengubah beberapa style pada halaman website chi coffee.
